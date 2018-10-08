@@ -27,6 +27,7 @@
 
 @property (readonly, nonatomic) NSTimeInterval duration;
 @property (readonly, nonatomic, copy) NSURL *URI;
+@property (readonly, nonatomic, copy) NSString *segmentTitle;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 

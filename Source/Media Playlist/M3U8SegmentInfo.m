@@ -30,6 +30,10 @@
     return self.dictionary[M3U8_URL];
 }
 
+- (NSString *)segmentTitle {
+	return self.dictionary[M3U8_EXTINF_TITLE];
+}
+
 - (NSURL *)mediaURL {
     if (self.URI.scheme) {
         return self.URI;
